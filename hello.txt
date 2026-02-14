@@ -28,10 +28,17 @@ ease-out -> slow end + fast start
 ease-on-out -> slow start + slow end
 
 
--> Git And GitHub
+-> Git And GitHub (add)
 -open folder and in thi option to gitbase
 -git --version
 - git status
 - git init
 - git status
 - git add . || git add index.js
+- git commit -m "msg"
+-git branch -M main (branch change)
+- git remote add origin https://github.com/nikul3305/jah_18_19.git
+- git push -u origin main
+
+-----update-------
+-git status
