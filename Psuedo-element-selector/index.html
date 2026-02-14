@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: 30px;
+            color: blue;
+        }
+        p::first-line {
+            color: black;
+            background-color: orange;
+        }
+        p::marker{
+            color:orange;
+            background-color: black;
+        }
+        p::selection{
+            color:black;
+            background-color: yellow;
+        }
+        input{
+            caret-color: red;
+        }
+        input::placeholder{
+            color: blue;
+            font-size: x-small;
+            accent-color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <!-- marker use in ul or ol mean unorder list or order list  -->
+<!--after before-->
+    <h1>Psuedo class selctor</h1>
+    <p class="id2">
+        Lorem ipsum dolor sit amet. <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, vel! <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, ullam!
+    </p>
+    <input type="text" placeholder="Enter your email address">
+</body>
+</html>

@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            margin: 50px auto;
+            text-align: center;
+            line-height: 300px;
+            background-color: bisque;
+        }
+        #box1{
+            border: 5px solid rgb(100, 97, 78);
+        }
+        #box2{
+            border: 5px solid rgb(100, 97, 78);
+            border-top-left-radius: 20px;
+        }
+        #box3{
+            border: 5px solid rgb(100, 97, 78);
+            border-top-right-radius: 20px;
+        }
+        #box4{
+            border: 5px solid rgb(100, 97, 78);
+            border-bottom-right-radius: 20px;
+        }
+        #box5{
+            border: 5px solid rgb(100, 97, 78);
+            border-bottom-left-radius: 20px;
+        }
+        #box6{
+            border: 5px solid rgb(100, 97, 78);
+            border-radius: 50%;
+            /* border-radius: 100%;  By default 100 give this work properly to 50 like this */ 
+        }
+         #box7{
+            border: 5px solid rgb(100, 97, 78);
+            border-radius: 50px 100px;
+        }
+         #box8{
+            border: 5px solid rgb(100, 97, 78);
+            border-radius: 10px 20px 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">box-1</div>
+    <div class="box" id="box2">box-2</div>
+    <div class="box" id="box3">box-3</div>
+    <div class="box" id="box4">box-4</div>
+    <div class="box" id="box5">box-5</div>
+    <div class="box" id="box6">box-6</div>
+    <div class="box" id="box7">box-7</div>
+    <div class="box" id="box8">box-8</div>
+</body>
+</html>

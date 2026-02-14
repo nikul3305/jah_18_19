@@ -1,0 +1,37 @@
+alt + l+o == open live server
+alt + l+c == stop live server
+ctr + l === select line 
+
+
+-> flex property
+dispaly flex
+justify-content
+align items
+flex direction
+flex wrap
+align content
+
+order
+flex-order
+flex-grow
+flex-shrink
+flex-basis
+align-self
+flex
+
+
+-> transaction-timing0function
+ease(default) -> slow + fast + slow
+linear -> same speed
+ease-in -> slow start + fast end
+ease-out -> slow end + fast start
+ease-on-out -> slow start + slow end
+
+
+-> Git And GitHub
+-open folder and in thi option to gitbase
+-git --version
+- git status
+- git init
+- git status
+- git add . || git add index.js

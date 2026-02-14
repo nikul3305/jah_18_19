@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 500px;
+            width: 500px;
+            border: 1px solid black;
+        }
+        #box1{
+            background-image: conic-gradient(red,yellow);
+        }
+        #box2{
+            background-image: conic-gradient(red 0deg 180deg,yellow 180deg 240deg,blue 240deg);
+        }
+        #box3{
+            background-image:conic-gradient(red 0deg 90deg, blue 90deg 180deg, yellow 18deg 360deg) ;
+        }
+        #box4{
+            background-image: conic-gradient(red 0deg 45deg, white 45deg 315deg, red 315deg 360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

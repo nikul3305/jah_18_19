@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parent{
+    width: 50%;
+    height: 500px;
+    border-bottom: 8px solid rgb(165, 59, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #da50b15f;
+}
+.parent:hover{
+    background-color: rgb(165, 59, 130);
+    transition: all 0.2s linear;
+}
+.child{
+   height: 80%;
+   width: 80%;
+   display: flex;
+   /* gap: 20px; */
+    border: 1px solid rgb(65, 62, 137);
+   flex-direction: column;
+}
+.sub-child{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(65, 62, 137);
+}
+.sub-child>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}

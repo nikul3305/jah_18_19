@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+        }
+        .box{
+            height: 500px;
+            width: 500px;
+            border-radius: 50%;
+            border: 1 px solid black;
+        }
+        #box1{
+            position: absolute;
+            background-image: radial-gradient(red, yellow);
+            animation: bgmode 5s linear;
+        }
+       @keyframes bgmode{
+        0%{
+            left: 0%;
+        }
+        100%{
+            left: 100%;
+        }
+       }
+        #box2{
+            background-image: radial-gradient(red 0% 50%, yellow 50%);
+
+        }
+        #box3{
+            background-image: radial-gradient(red 10% 30%, yellow 30% 60%, green 60%);
+        }
+        #box4{
+            background-image: repeating-radial-gradient(red 10% 20%,yellow 20% 30%);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5"></div>
+    </div>
+</body>
+</html>

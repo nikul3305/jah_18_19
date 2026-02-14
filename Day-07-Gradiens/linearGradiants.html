@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 30px auto;
+            
+        }
+        .box:hover{
+            animation: bgmode 2s linear;
+        }
+        #box1{
+            background-image: linear-gradient(red, yellow);
+        }
+        #box2{
+            background-image: linear-gradient(to bottom, red, yellow);
+        }
+        #box3{
+            background-image: linear-gradient(to right, red, yellow);
+        }
+        #box4{
+            background-image: linear-gradient( red 0% 50%, yellow 50%);
+        }
+        #box5{
+            background-image: linear-gradient(to bottom right, red , yellow );
+        }
+        @keyframes bgmode{
+            0%{
+                background-image: linear-gradient(rgb(26, 147, 79), yellow);
+        
+            }
+            100%{
+                background-image: linear-gradient(orange, grey);
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5"></div>
+</body>
+</html>
